@@ -20,7 +20,11 @@
     "lint": "eslint src",
     "watch": "tsc --watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1"
+  },
   "devDependencies": {
     "@types/jest": "^27.0.2",
     "@typescript-eslint/eslint-plugin": "^5.3.0",
